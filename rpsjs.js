@@ -82,7 +82,7 @@ function rockpaperscissor()
     {
         scorestrf = "Your Final Score = "+score+"/5";
         document.getElementById('finstring').innerHTML = scorestrf;
-
+        document.getElementById('fintwo').innerHTML = "Refresh page to play again.";
         document.getElementById('submit').disabled = true;
         return;
     }
