@@ -1,0 +1,9 @@
+.intro{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.userchoice{
+    display:flex;
+    flex-wrap:wrap;
+}

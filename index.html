@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Rock, Paper, Scissors</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="rpsjs.js"></script> 
+</head>
+
+<body>
+    <div class="intro">
+        <p>Rock Paper Scissor Game</p>
+        <p>You will be playing against the computer</p>
+    </div>
+    <p class="prompt">Pick one of the three choices</p>
+    <div class="userchoice">
+        <input type="radio" name="choice" value="Rock" class="rock">Rock
+        <input type="radio" name="choice" value="Paper" class="paper">Paper
+        <input type="radio" name="choice" value="Scissor" class="scissor">Scissor
+    </div>
+    <br>
+    <button type="button" onclick="rockpaperscissor()" id="submit" class="submit">GO-></button>
+    <br>
+    <div class="userpick">
+        <p id="upick"></p>
+    </div>
+    <div class="comppick">
+        <p id="cpick"></p>
+    </div>
+    <div class="winner">
+        <p id="winnerstring"></p>
+        <p id="scorestring"></p>
+    </div>
+
+    <p id="finstring" class="fin"></p>
+    <div class = "footer">
+        <p>Refresh page to play again.</p>
+        <p>Mokash</p>
+    </div>
+</body>
