@@ -78,7 +78,7 @@ function rockpaperscissor()
         document.getElementById('winnerstring').innerHTML = wstr;
         document.getElementById('scorestring').innerHTML = scorestr;
     }
-    else
+    if(i==5)
     {
         scorestrf = "Your Final Score = "+score+"/5";
         document.getElementById('finstring').innerHTML = scorestrf;
